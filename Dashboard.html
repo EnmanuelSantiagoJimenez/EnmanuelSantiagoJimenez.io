@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Educativo</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex min-h-screen">
+
+<div class="w-64 bg-gray-100 p-4">
+  <h1 class="text-2xl font-bold">edu</h1>
+  <ul class="bg-gradient-to-b from-blue-100 to-purple-300">
+    <li><li class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600">Perfil</li></li>
+    <li><li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">progreso</li></li>
+    <li><li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">Mensaje</li></li>
+    <li><li class="w-full px-4 py-2 border-b border-gray-200 dark:border-gray-600">configuracion</li></li>
+    <div>Cerrar sesión</div>
+    
+  </ul>
+
+</div>
+
+<div class="flex-grow p-8">
+  <div class="flex justify-between items-center">
+    <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Buscar" required />
+    <div>
+      <span>Notificaciones</span>
+      <span>Usuario</span>
+    </div>
+  </div>
+
+  <div class="bg-blue-900 text-white p-6 rounded-lg">
+    <h2 class="text-xl font-bold">Título</h2>
+    <p>Descripción</p>
+  </div>
+
+  <section>
+    <h3 class="text-lg font-semibold">Eventos</h3>
+    <div class="flex space-x-4">
+      <div class="border rounded p-4">Evento 1</div>
+      <div class="border rounded p-4">Evento 2</div>
+      <div class="border rounded p-4">Evento 3</div>
+    </div>
+  </section>
+
+  <section>
+    <h3 class="text-lg font-semibold">Tiempo y Progreso</h3>
+    <div class="bg-gray-200 h-24 rounded"></div>
+  </section>
+</div>
+
+<div class="absolute right-8 top-32 w-64 bg-gray-100 p-4 rounded">
+  <h3 class="font-semibold">Tus Cursos</h3>
+  <ul>
+    <li>Curso 1</li>
+    <li>Curso 2</li>
+    <li>Curso 3</li>
+    <li>Curso 4</li>
+  </ul>
+  <div class="mt-8 bg-gray-200 p-4 rounded text-center">Mejorar a Premium</div>
+</div>
+</body>
+</html>
